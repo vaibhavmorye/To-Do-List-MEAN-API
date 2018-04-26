@@ -4,7 +4,7 @@
   "description": "mongo node express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node server.js"
   },
   "keywords": [
     "curd",
@@ -19,5 +19,8 @@
     "mongodb": "^3.0.5",
     "mongoose": "^5.0.11",
     "nodemon": "^1.17.2"
+  },
+  "engines": {
+    "node": "4.1.1"
   }
 }
